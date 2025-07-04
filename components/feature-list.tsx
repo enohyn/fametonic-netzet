@@ -8,7 +8,7 @@ const features = [
 export function FeatureList() {
   return (
     <div className="font-figtree lg:mb-[30px] flex justify-center lg:justify-start">
-      <ul className="list-none">
+      <ul className="list-none text-left">
         {features.map((feature, index) => (
           <li key={index} className="flex items-center gap-x-[10px] mb-[13px]">
             <div
