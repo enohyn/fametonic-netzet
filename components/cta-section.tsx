@@ -1,14 +1,13 @@
-import { ChevronRight } from "lucide-react";
+import RightChevron from "@/public/icons/RightChevron";
 export function CTASection() {
   return (
     <div className="font-figtree flex flex-col-reverse max-lg:items-center max-lg:text-center lg:flex-col ">
       <div className="max-lg:py-10 max-lg:px-5 w-full max-w-[390px] lg:w-[313px]">
         <button className="bg-[#FC004E] flex items-center justify-center font-urbanist lg:font-figtree button-shadow text-white font-bold text-xl w-full py-2 px-10 leading-[100%] rounded-[10px] mb-[10px]">
-          GET STARTED
-          {/* <span className="text-2xl font-bold -mt-1">
-            &gt;
-          </span> */}
-          <ChevronRight className="-mt-[1px] font-extrabold "/>
+          <span className="flex items-start gap-x-[10px]">
+            GET STARTED
+            <RightChevron className="mt-0.5" />
+          </span>
         </button>
         <p className="text-xs text-center text-white leading-4 mb-4">1-minute quiz for personalized insights</p>
       </div>
