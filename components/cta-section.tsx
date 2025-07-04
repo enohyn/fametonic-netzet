@@ -2,7 +2,7 @@ import { ChevronRight } from "lucide-react";
 export function CTASection() {
   return (
     <div className="font-figtree flex flex-col-reverse max-lg:items-center max-lg:text-center lg:flex-col ">
-      <div className="max-lg:py-10 max-lg:px-5 w-[390px] lg:w-[313px]">
+      <div className="max-lg:py-10 max-lg:px-5 w-full max-w-[390px] lg:w-[313px]">
         <button className="bg-[#FC004E] flex items-center justify-center font-urbanist lg:font-figtree button-shadow text-white font-bold text-xl w-full py-2 px-10 leading-[100%] rounded-[10px] mb-[10px]">
           GET STARTED
           {/* <span className="text-2xl font-bold -mt-1">
