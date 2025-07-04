@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .button-shadow {
+    box-shadow: 2px 2px 10px 0 rgba(0, 231, 249, 1);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border box-border;
+  }
+  body {
+    @apply bg-black text-white;
+  }
+}
+@layer components {
+  .container {
+    @apply w-full xl:max-w-[1200px] mx-auto px-5;
+  }
+}
