@@ -10,12 +10,12 @@ export function SiteHeader() {
           </div>
           <ul className="flex gap-10 list-none text-lg leading-[100%] font-semibold">
             <li>
-              <a href="#" className="hover:text-white transition-colors">
+              <a href="#" >
                 About us
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-white transition-colors">
+              <a href="#">
                 Contact
               </a>
             </li>
